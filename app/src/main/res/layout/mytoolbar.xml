@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/newyork"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="New York...."
+            android:paddingTop="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="55dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/facebook"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/twiter"
+            android:layout_marginLeft="265dp"
+            />
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:background="@drawable/threedot"
+            android:layout_marginLeft="330dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>
